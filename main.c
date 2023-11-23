@@ -202,10 +202,10 @@ int main(int argc, char *argv[]) {
 		printf("The shark moved!\n");
 		checkDie(); 
 	 }
-    } while(game_end() == 0);
+    } while(game_end() == 1);
 	//3. 정리(승자 계산 및 출력) 
 	 
-	 if(game_end() == 0)
+	 if(game_end() == 1)
 	 {
 	 printf("Alive player: %i\n", getAlivePlayer());
 	 printf("Winner: player %i\n", getWinner());
