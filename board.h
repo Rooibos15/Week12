@@ -1,5 +1,8 @@
+#define N_BOARD            13 
 #define BOARDSTATUS_OK     1
 #define BOARDSTATUS_NOK    0
+#define N_COINPOS          10
+#define MAX_COIN           4
 
 int board_initBoard(void);
 int board_getBoardStatus(int pos);
